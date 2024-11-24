@@ -1,0 +1,103 @@
+header{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    padding-top: 30px;
+}
+.wrap-header{
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    padding: 15px 30px;
+    border-radius: 45px;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrap-header .menu-header ul{
+    display: flex;
+}
+.wrap-header .menu-header ul li{
+    padding-right: 40px;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #575757;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.wrap-header .menu-header ul li:hover{
+    color: var(--color-2)
+}
+.section-1 {
+    width: 100%; /* Đặt chiều rộng */
+    height: 100vh; /* Đặt chiều cao (toàn màn hình) */
+    background-image: url("https://templatemo.com/templates/templatemo_535_softy_pinko/assets/images/banner-bg.png"); /* Đường dẫn tới hình ảnh */
+    background-size: cover; /* Để ảnh phủ kín phần tử */
+    background-position: center; /* Căn giữa ảnh */
+    background-repeat: no-repeat; /* Không lặp lại ảnh */
+}
+.section-1 .wrap-section-1{
+    padding-top: 225px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.section-1 .text-section-1 .text-1{
+    color: white;
+    font-size: 36px;
+    padding-bottom: 30px;
+    font-weight: 500;
+}
+.section-1 .text-section-1 .text-2{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.section-1 .text-section-1 button{
+    color: white;
+    padding: 10px 25px;
+    border-radius: 45px;
+    border: 0;
+    background-color: #FF589E;
+    font-size: 13px;
+    transition: background-color 0.3s ease;
+}
+.section-1 .text-section-1 button:hover{
+    background-color: #8261EE;
+}
+.section-1 .wrap-section-1 .row-section-1{
+    padding-top: 30px;
+}
+.section-1 .box{
+    display: block;
+    height: 267px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+}
+.section-1 .box .img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #8261EE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    margin-bottom: 35px;
+}
+.section-1 .box .img:hover{
+    background-color: #FF589E;
+    transition: background-color 0.3s ease;
+}
+.section-1 .p-1{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+.section-1 .p-2{
+    color: #777;
+    font-size: 13px;
+    font-weight: 400;
+}
